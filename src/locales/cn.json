@@ -1,0 +1,340 @@
+{
+  "flash": {
+    "logout": "您已成功登出。"
+  },
+  "auth": {
+    "loading": "加载中...",
+    "login": "登录",
+    "logout": "登出",
+    "login_admin": "以管理员身份登录",
+    "email": "电子邮件",
+    "password": "密码",
+    "back_home": "返回主页",
+    "enter_email": "输入您的电子邮件",
+    "enter_password": "输入您的密码",
+    "login_success": "登录成功",
+    "logout_success": "登出成功",
+    "login_fail": "登录失败",
+    "validation": {
+      "email": {
+        "required": "需要电子邮件",
+        "invalid": "无效的电子邮件"
+      },
+      "type": {
+        "required": "需要类型"
+      },
+      "password": {
+        "required": "需要密码",
+        "min": "密码必须超过8个字符"
+      }
+    }
+  },
+  "sidebar": {
+    "home": "主页",
+    "dashboard": "仪表板",
+    "settings": "设置",
+    "users": "用户",
+    "merchants": "商家",
+    "categories": "分类",
+    "menus": "菜单",
+    "languages": "语言",
+    "permissions": "权限",
+    "appearances": "外观",
+    "account": "帐户",
+    "roles": "角色",
+    "stores": "商店",
+    "templates": "模板",
+    "configurations": "配置",
+    "overview": "概览",
+    "subscriptions": "订阅"
+  },
+  "commons": {
+    "items": "{value} 项",
+    "save": "保存更改",
+    "cancel": "取消",
+    "select_file": "点击选择文件",
+    "created_at": "创建于",
+    "status": "状态",
+    "action": "操作",
+    "id": "编号",
+    "date": "日期",
+    "date_range": "日期范围",
+    "delete": "删除",
+    "edit": "编辑",
+    "view": "查看",
+    "continue": "继续",
+    "are_you_sure": "你确定吗？",
+    "wont_revert_back": "您将无法恢复此操作！"
+  },
+  "filter": {
+    "filter": "过滤",
+    "search": "搜索",
+    "clear": "清除",
+    "name": "按名称过滤",
+    "status": "按状态过滤",
+    "username": "按用户名过滤",
+    "role": "按角色过滤",
+    "level": "按级别过滤",
+    "currency": "按货币过滤",
+    "start_date": "开始日期",
+    "end_date": "结束日期",
+    "price": "按价格过滤",
+    "date_range": "按日期范围过滤",
+    "email": "按电子邮件筛选",
+    "phone_number": "按电话号码筛选"
+  },
+  "validation": {
+    "required": {
+      "name": "需要名称",
+      "address": "需要地址",
+      "contact_name": "需要联系人姓名",
+      "contact_phone": "需要联系人电话",
+      "social_name": "需要社交名称",
+      "social_url": "需要社交网址",
+      "start_hour": "需要开始时间",
+      "end_hour": "需要结束时间",
+      "operation_day": "需要操作天数",
+      "opening_status": "需要营业状态",
+      "currency": "需要货币",
+      "image": "需要图片",
+      "status": "需要状态",
+      "name_km": "需要名称（高棉语）",
+      "name_cn": "需要名称（中文）",
+      "category": "需要分类",
+      "email": "需要电子邮件",
+      "password": "需要密码",
+      "first_name": "需要名字",
+      "last_name": "需要姓氏",
+      "username": "需要用户名",
+      "role": "需要角色",
+      "level": "需要级别",
+      "password_confirmation": "需要密码确认",
+      "merchant_per_account": "需要帐户",
+      "subscription_price": "需要价格",
+      "due_date_duration": "需要持续时间",
+      "price": "需要价格",
+      "current_password": "需要当前密码",
+      "new_password": "需要新密码",
+      "confirm_password": "需要确认密码",
+      "phone": "需要电话号码",
+      "merchant": "需要商家"
+    },
+    "invalid": {
+      "social_url": "无效的网址",
+      "opening_status": "无效的状态",
+      "currency": "无效的货币",
+      "email": "无效的电子邮件",
+      "phone": "无效的电话号码"
+    },
+    "min": {
+      "contact": "至少需要一个联系人",
+      "operation_day": "至少需要一天操作天数",
+      "categories": "至少需要一个分类",
+      "merchant_per_account": "至少需要一个帐户",
+      "subscription_price": "至少需要一个价格",
+      "due_date_duration": "至少需要一天",
+      "price": "至少需要一美元",
+      "image": "至少需要一张图片",
+      "templates": "至少需要一个模板"
+    },
+    "length": {
+      "password": "密码长度至少为8个字符"
+    },
+    "match": {
+      "confirm_password": "密码确认必须与新密码匹配"
+    }
+  },
+  "placeholder": {
+    "empty": "没有记录",
+    "name": "输入名称",
+    "name_km": "输入高棉名称",
+    "name_cn": "输入中文名称",
+    "select": "选择选项",
+    "slug": "输入标识",
+    "select_time": "选择营业时间",
+    "select_currency": "选择货币",
+    "select_status": "选择状态",
+    "select_file": "点击选择文件",
+    "select_category": "选择分类",
+    "select_role": "选择角色",
+    "select_level": "选择级别",
+    "address": "输入地址",
+    "phone": "输入电话号码",
+    "url": "输入网址",
+    "first_name": "输入名字",
+    "last_name": "输入姓氏",
+    "price": "输入价格",
+    "email": "输入电子邮件",
+    "username": "输入用户名",
+    "password": "输入密码",
+    "password_confirmation": "输入密码确认"
+  },
+  "options": {
+    "select_all": "全选",
+    "all": "所有",
+    "days": {
+      "monday": "星期一",
+      "tuesday": "星期二",
+      "wednesday": "星期三",
+      "thursday": "星期四",
+      "friday": "星期五",
+      "saturday": "星期六",
+      "sunday": "星期日"
+    },
+    "opening_status": {
+      "close": "关闭",
+      "open": "打开"
+    },
+    "status": {
+      "active": "活跃",
+      "inactive": "不活跃"
+    },
+    "level": {
+      "ordinary": "普通",
+      "master": "大师",
+      "super": "超级"
+    },
+    "lang": {
+      "en": "英文",
+      "km": "高棉文",
+      "cn": "中文"
+    },
+    "theme": {
+      "dark": "黑暗",
+      "light": "光明"
+    }
+  },
+  "store": {
+    "image": "图片",
+    "name": "名称",
+    "slug": "标识",
+    "address": "地址",
+    "operation_hours": "营业时间",
+    "opening_status": "营业状态",
+    "currency": "货币",
+    "list": "商店列表",
+    "create": "创建商店",
+    "edit": "编辑 {value}",
+    "contacts": "联系人",
+    "socials": "社交",
+    "operation_days": "操作天数",
+    "is_holiday_break": "是否假期休息",
+    "latitude": "纬度",
+    "longitude": "经度",
+    "start_hour": "开始时间",
+    "end_hour": "结束时间",
+    "phone": "电话",
+    "url": "网址",
+    "location": "位置",
+    "merchant": "商家",
+    "templates": "模板",
+    "categories": "分类",
+    "add": {
+      "contact": "添加联系人",
+      "social": "添加社交"
+    }
+  },
+  "category": {
+    "image": "图片",
+    "name": "名称",
+    "name_km": "名称（高棉语）",
+    "name_cn": "名称（中文）",
+    "list": "分类列表",
+    "create": "创建分类",
+    "edit": "编辑 {value}"
+  },
+  "template": {
+    "name": "名称",
+    "category": "分类",
+    "list": "模板列表",
+    "create": "创建模板",
+    "edit": "编辑 {value}"
+  },
+  "role": {
+    "name": "名称",
+    "list": "角色列表",
+    "create": "创建角色",
+    "edit": "编辑 {value}",
+    "privileges": "特权"
+  },
+  "merchant": {
+    "fullname": "全名",
+    "role": "角色",
+    "level": "级别",
+    "list": "商家列表",
+    "create": "创建商家",
+    "edit": "编辑 {value}",
+    "email": "电子邮件",
+    "password": "密码",
+    "password_confirmation": "密码确认",
+    "username": "用户名",
+    "first_name": "名字",
+    "last_name": "姓氏",
+    "phone_number": "电话号码"
+  },
+  "menu": {
+    "name": "名称",
+    "name_km": "名称（高棉语）",
+    "name_cn": "名称（中文）",
+    "description": "描述",
+    "image": "图片",
+    "list": "菜单列表",
+    "create": "创建菜单",
+    "edit": "编辑 {value}",
+    "price": "价格",
+    "merchant": "商家"
+  },
+  "config": {
+    "title": "配置",
+    "general": {
+      "title": "一般",
+      "desc": "在此处进行一般配置的更改。完成后点击保存。",
+      "merchant_per_account": "每个帐户的商家",
+      "per_account_desc": "每个帐户可以分配有限数量的商家。调整此设置以指定每个帐户允许的最大商家数。",
+      "subscription_price": "订阅价格",
+      "subscription_desc": "定义订阅服务的费用。这是用户定期访问高级功能时收取的金额。",
+      "due_date_duration": "到期日期持续时间",
+      "due_date_desc": "指定付款到期后的天数。此持续时间设置用户完成付款的截止日期。"
+    },
+    "others": {
+      "title": "其他",
+      "desc": "自定义应用程序的外观。",
+      "language": "语言",
+      "langauge_desc": "设置要在仪表板中显示的语言",
+      "theme": "主题"
+    }
+  },
+  "account": {
+    "title": "帐户",
+    "profile": {
+      "title": "个人资料",
+      "desc": "更新您的个人资料详情",
+      "username": "用户名",
+      "email": "电子邮件",
+      "first_name": "名字",
+      "last_name": "姓氏",
+      "phone_number": "电话号码"
+    },
+    "password": {
+      "title": "密码",
+      "desc": "更改您的帐户密码",
+      "current_password": "当前密码",
+      "new_password": "新密码",
+      "confirm_password": "确认密码"
+    }
+  },
+  "overview": {
+    "title": "概览",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit est reiciendis nesciunt nam deserunt odio dolor. Laudantium."
+  },
+  "subscription": {
+    "list": "订阅列表",
+    "merchant": "商家",
+    "name": "名称",
+    "time_left": "剩余时间",
+    "price": "价格",
+    "expired": "已过期",
+    "duration": "时长",
+    "day": "{value} 天"
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "flash": {
+    "logout": "You have successfully logout."
+  },
+  "auth": {
+    "loading": "Loading...",
+    "login": "Login",
+    "logout": "Logout",
+    "login_admin": "Login as admin",
+    "email": "Email",
+    "password": "Password",
+    "back_home": "Back to homepage",
+    "enter_email": "Enter your email",
+    "enter_password": "Enter your password",
+    "login_success": "Login successfully",
+    "logout_success": "Logout successfully",
+    "login_fail": "Login fail",
+    "validation": {
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email"
+      },
+      "type": {
+        "required": "Type is required"
+      },
+      "password": {
+        "required": "Password is required",
+        "min": "Password must be more than 8 characters"
+      }
+    }
+  },
+  "sidebar": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "users": "Users",
+    "merchants": "Merchants",
+    "categories": "Categories",
+    "menus": "Menus",
+    "languages": "Languages",
+    "permissions": "Permissions",
+    "appearances": "Appearances",
+    "account": "Account",
+    "roles": "Roles",
+    "stores": "Stores",
+    "templates": "Templates",
+    "configurations": "Configurations",
+    "overview": "Overview",
+    "subscriptions": "Subscriptions",
+    "create": "New",
+    "edit": "Edit"
+  },
+  "commons": {
+    "items": "{value} items",
+    "save": "Save changes",
+    "cancel": "Cancel",
+    "select_file": "Click to select file",
+    "created_at": "Created at",
+    "status": "Status",
+    "action": "Action",
+    "id": "ID",
+    "date": "Date",
+    "date_range": "Date range",
+    "delete": "DELETE",
+    "edit": "EDIT",
+    "view": "VIEW",
+    "continue": "Continue",
+    "are_you_sure": "Are you sure?",
+    "wont_revert_back": "You won't be able to revert this!",
+    "another": "Create another",
+    "back": "Back",
+    "to_map": "Go to map",
+    "download": "Download"
+  },
+  "filter": {
+    "filter": "Filter",
+    "search": "Search",
+    "clear": "Clear",
+    "name": "Filter by name",
+    "status": "Filter by status",
+    "username": "Filter by username",
+    "role": "Filter by role",
+    "level": "Filter by level",
+    "currency": "Filter by currency",
+    "start_date": "Start date",
+    "end_date": "End date",
+    "price": "Filter by price",
+    "date_range": "Filter by date range",
+    "email": "Filter by email",
+    "phone_number": "Filter by phone number",
+    "store": "Filter by store"
+  },
+  "validation": {
+    "required": {
+      "name": "Name is required",
+      "address": "Address is required",
+      "contact_name": "Contact name is required",
+      "contact_phone": "Contact phone is required",
+      "social_name": "Social name is required",
+      "social_url": "Social URL is required",
+      "start_hour": "Start hour is required",
+      "end_hour": "End hour is required",
+      "operation_day": "Operation day is required",
+      "opening_status": "Opening status is required",
+      "currency": "Currency is required",
+      "image": "Image is required",
+      "status": "Status is required",
+      "name_km": "Name (KM) is required",
+      "name_cn": "Name (CN) is required",
+      "category": "Category is required",
+      "email": "Email is required",
+      "password": "Password is required",
+      "first_name": "First name is required",
+      "last_name": "Last name is required",
+      "username": "Username is required",
+      "role": "Role is required",
+      "level": "Level is required",
+      "password_confirmation": "Pasword confirmation is required",
+      "merchant_per_account": "Account is required",
+      "subscription_price": "Price is required",
+      "due_date_duration": "Duration is required",
+      "price": "Price is required",
+      "current_password": "Current password is required",
+      "new_password": "New password is required",
+      "confirm_password": "Confirmation password is required",
+      "phone": "Phone number is required",
+      "merchant": "Merchant is required",
+      "slug": "Slug is required"
+    },
+    "invalid": {
+      "social_url": "Invalid URL",
+      "opening_status": "Invalid status",
+      "currency": "Invalid currency",
+      "email": "Invalid email",
+      "phone": "Invalid phone number",
+      "slug": "Slug can only contain lowercase letters, numbers and dash"
+    },
+    "min": {
+      "contact": "At least one contact is required",
+      "operation_day": "At least one day is required",
+      "categories": "At least one category is required",
+      "merchant_per_account": "At least one account is required",
+      "subscription_price": "At least one price is required",
+      "due_date_duration": "At least one day is required",
+      "price": "At least one dollar is required",
+      "image": "At least one image is required",
+      "templates": "At least one template is required"
+    },
+    "length": {
+      "password": "Password must be at least 8 characters long"
+    },
+    "match": {
+      "confirm_password": "Password confirmation must match with new password"
+    }
+  },
+  "placeholder": {
+    "empty": "No records",
+    "name": "Enter name",
+    "name_km": "Enter khmer name",
+    "name_cn": "Enter chinese name",
+    "select": "Select option",
+    "slug": "Enter slug",
+    "select_time": "Select opening hours",
+    "select_currency": "Select currency",
+    "select_status": "Select status",
+    "select_file": "Click to select file",
+    "select_category": "Select category",
+    "select_role": "Select role",
+    "select_level": " Select level",
+    "address": "Enter address",
+    "phone": "Enter phone number",
+    "url": "Enter URL",
+    "first_name": "Enter first name",
+    "last_name": "Enter last name",
+    "price": "Enter price",
+    "email": "Enter email",
+    "username": "Enter username",
+    "password": "Enter password",
+    "password_confirmation": "Enter password confirmation"
+  },
+  "options": {
+    "select_all": "Select all",
+    "all": "All",
+    "days": {
+      "monday": "monday",
+      "tuesday": "tuesday",
+      "wednesday": "wednesday",
+      "thursday": "thursday",
+      "friday": "friday",
+      "saturday": "saturday",
+      "sunday": "sunday"
+    },
+    "opening_status": {
+      "close": "Close",
+      "open": "Open"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "disable": "Disable"
+    },
+    "level": {
+      "ordinary": "Ordinary",
+      "master": "Master",
+      "super": "Super"
+    },
+    "lang": {
+      "en": "English",
+      "km": "Khmer",
+      "cn": "Chinese"
+    },
+    "theme": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "store": {
+    "image": "Image",
+    "name": "Name",
+    "slug": "Slug",
+    "address": "Address",
+    "operation_hours": "Operation hours",
+    "opening_status": "Opening status",
+    "currency": "Currency",
+    "list": "Store list",
+    "create": "Create store",
+    "edit": "Edit: {value}",
+    "contacts": "Contacts",
+    "socials": "Socials",
+    "operation_days": "Operation days",
+    "is_holiday_break": "Is holiday break",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "start_hour": "Start hour",
+    "end_hour": "End hour",
+    "phone": "Phone",
+    "url": "URL",
+    "location": "Location",
+    "merchant": "Merchant",
+    "templates": "Templates",
+    "categories": "Categories",
+    "open_every_day": "Open every day",
+    "add": {
+      "contact": "Add contact",
+      "social": "Add social"
+    }
+  },
+  "category": {
+    "image": "Image",
+    "name": "Name",
+    "store": "Store",
+    "name_km": "Name (KM)",
+    "name_cn": "Name (CN)",
+    "list": "Category list",
+    "create": "Create category",
+    "edit": "Edit: {value}"
+  },
+  "template": {
+    "name": "Name",
+    "category": "Categories",
+    "list": "Template list",
+    "create": "Create template",
+    "edit": "Edit: {value}"
+  },
+  "role": {
+    "name": "Name",
+    "list": "Role list",
+    "create": "Create role",
+    "edit": "Edit: {value}",
+    "privileges": "Privileges"
+  },
+  "merchant": {
+    "fullname": "Fullname",
+    "role": "Role",
+    "level": "Level",
+    "list": "Merchant list",
+    "create": "Create merchant",
+    "edit": "Edit: {value}",
+    "email": "Email",
+    "password": "Password",
+    "password_confirmation": "Password confirmation",
+    "username": "Username",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "phone_number": "Phone number"
+  },
+  "menu": {
+    "name": "Name",
+    "name_km": "Name (KM)",
+    "name_cn": "Name (CN)",
+    "description": "Description",
+    "image": "Image",
+    "list": "Menu list",
+    "create": "Create menu",
+    "edit": "Edit: {value}",
+    "price": "Price",
+    "merchant": "Merchant"
+  },
+  "config": {
+    "title": "Configurations",
+    "general": {
+      "title": "General",
+      "desc": "Make changes to your general configuration here. Click save when you're done.",
+      "merchant_per_account": "Merchant per account",
+      "per_account_desc": "Each account can have a limited number of merchants assigned. Adjust this setting to specify the maximum allowed merchants per account.",
+      "subscription_price": "Subscription price",
+      "subscription_desc": "Define the cost for subscription services. This is the amount users will be charged on a regular basis for access to premium features.",
+      "due_date_duration": "Due date duration",
+      "due_date_desc": "Specify the number of days after which the payment is due. This duration sets the deadline for users to complete their payment."
+    },
+    "others": {
+      "title": "Others",
+      "desc": "Customize the appearance of the app.",
+      "language": "Language",
+      "language_desc": "Set the language you to display in dashboard",
+      "theme": "Theme"
+    }
+  },
+  "account": {
+    "title": "Account",
+    "profile": {
+      "title": "Profile",
+      "desc": "Update your profile details",
+      "username": "Username",
+      "email": "Email",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "phone_number": "Phone number"
+    },
+    "password": {
+      "title": "Password",
+      "desc": "Change your account password",
+      "current_password": "Current password",
+      "new_password": "New password",
+      "confirm_password": "Confirm password"
+    }
+  },
+  "overview": {
+    "title": "Overview",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit est reiciendis nesciunt nam deserunt odio dolor. Laudantium."
+  },
+  "subscription": {
+    "list": "Subscription list",
+    "merchant": "Merchant",
+    "name": "Name",
+    "time_left": "Time left",
+    "price": "Price",
+    "expired": "Expired",
+    "duration": "Duration",
+    "day": "{value} days",
+    "expired_at": "Expired At"
+  }
+}

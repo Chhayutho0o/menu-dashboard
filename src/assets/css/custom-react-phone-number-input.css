@@ -1,0 +1,11 @@
+@import "react-phone-number-input/style.css";
+
+.PhoneInput {
+  @apply border border-gray-400 overflow-hidden pl-3 flex h-10 w-full rounded-md border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+}
+.PhoneInputInput {
+  @apply border-gray-400 border-t-0 border-r-0 border-b-0 border-l h-full focus:!outline-none pl-3;
+}
+.PhoneInputCountry {
+  @apply w-10;
+}
