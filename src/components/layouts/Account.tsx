@@ -98,8 +98,8 @@ export default function Account({ profile, align = "start" }: any) {
             </Avatar>
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent align={align} side="bottom" className="w-40">
-          <DropdownMenuLabel>{profile.username}</DropdownMenuLabel>
+        <DropdownMenuContent align={align} side="bottom" className="w-48">
+          <DropdownMenuLabel>{profile.email}</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuItem asChild>
             <Link prefetch={false} href={`/account`} className="flex gap-2">
