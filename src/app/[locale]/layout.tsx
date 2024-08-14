@@ -6,6 +6,7 @@ import { NextIntlClientProvider } from "next-intl";
 import ProgressBarProvider from "@/components/providers/ProgressBarProvider";
 import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "E-Menu Dashboard",
@@ -59,6 +60,7 @@ export default async function RootLayout({ children, params }: Props) {
             />
           </NextIntlClientProvider>
         </ProgressBarProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
