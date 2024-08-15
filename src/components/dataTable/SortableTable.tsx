@@ -71,7 +71,8 @@ const SortableTable: React.FC<Props> = ({
         <TableHead
           className={clsx(
             "font-semibold border bg-secondary",
-            column?.headerClass
+            column?.headerClass,
+            column.type === "index" && "sticky left-0 drop-shadow-lg"
           )}
           key={i}
         >
